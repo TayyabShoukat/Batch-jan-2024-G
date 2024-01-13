@@ -1,0 +1,45 @@
+#para1 {
+  color: red;
+}
+
+#para2 {
+  color: blue;
+}
+
+#para3 {
+  color: brown;
+}
+
+#para4 {
+  color: purple;
+}
+
+/* * {
+  font-size: x-large;
+  text-align: center;
+} */
+
+.pred {
+  color: red;
+  text-align: center;
+  font-size: x-large;
+}
+
+.pgreen {
+  color: green;
+  text-align: right;
+}
+
+p.pgreen {
+  font-size: xx-large;
+  text-align: center;
+}
+
+.pyellow {
+  color: rgba(28, 14, 231, 0.968);
+}
+
+.pcenter{
+    text-align: center;
+    color: green;
+}
