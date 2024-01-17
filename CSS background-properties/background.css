@@ -1,0 +1,12 @@
+.backgroundImage {
+  background-image: url("./images/burgerPicture.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-attachment: fixed;
+  /* background: #ffff88 url("/images//burgerPicture.png") no-repeat fixed right top; */
+
+  height: 100vh;
+  /* background-size: cover; */
+  /* background-color: rgba(160, 140, 120, 0.5);
+    opacity: 1; */
+}

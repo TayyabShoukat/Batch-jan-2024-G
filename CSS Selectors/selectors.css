@@ -44,3 +44,8 @@ p.pgreen {
     text-align: center;
     color: green;
 }
+
+.backgroundlogo{
+  background-image: url("/images/burgerPicture.png");
+  background-repeat: no-repeat;
+}
