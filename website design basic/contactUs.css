@@ -1,0 +1,44 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+.container {
+  background-color: #f8f9fa;
+  height: 100vh;
+}
+
+.logoDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoImg {
+}
+
+.navbarDiv {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.navbar {
+  text-decoration: none;
+  color: black;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.maindiv{
+    padding: 40px;
+    text-align: justify;
+    text-indent: 35px;
+    line-height: 1.5;
+    font-size: 20px;
+}

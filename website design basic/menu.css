@@ -1,9 +1,10 @@
 body {
-  padding: 0px;
   margin: 0px;
+  padding: 0px;
 }
 .container {
   background-color: #f8f9fa;
+  height: 100vh;
 }
 
 .logoDiv {
@@ -23,31 +24,23 @@ body {
   gap: 15px;
 }
 
-.navbar{
-    text-decoration: none;
-    color: black;
+.navbar {
+  text-decoration: none;
+  color: black;
 }
 
-.mainAreaDiv {
+.menuImagesDiv {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  align-items: center;
-  gap: 15px;
-  padding: 20px 40px;
-  margin-top: 10px;
+  margin-top: 20px;
+  /* justify-content: center;
+    align-items: center;
+    align-content: center; */
 }
 
-.mainAreaDivLeft {
-}
-
-.mainAreaDivRight {
-}
-.img{
-    border-radius: 10px 40px 10px 40px;
-}
-
-.mainAreaDivLeftHeading {
-  text-align: center;
+.menuImagesDivDesign {
+  /* border-radius: 20px 30px; */
 }
 
 .footer {
@@ -55,8 +48,4 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-}
-
-.mainAreaDivLeftParagraph{
-    
 }
