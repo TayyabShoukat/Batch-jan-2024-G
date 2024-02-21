@@ -3,8 +3,8 @@
     width: 1200px;
     border: 1px solid black;
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
-    grid-template-rows: 1fr 2fr 1fr 1fr;
+    grid-template-columns: 100px 1fr 100px;
+    grid-template-rows: 50px  1fr 50px;
     margin:50px;
 }
 
@@ -13,12 +13,13 @@
     color: white;
     border: 1px solid white;
     text-align: center;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
 }
 
 .child:hover{
     background-color: darkgray;
     cursor: pointer;
+}
+
+.div5{
+    order: 1
 }
