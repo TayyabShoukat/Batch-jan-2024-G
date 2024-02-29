@@ -1,0 +1,11 @@
+.c{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+justify-content: space-between;
+border: 1px solid black;
+}
+.grid-image{
+    height: 280px;
+    width: 270px;
+    border: 1px solid black;
+}

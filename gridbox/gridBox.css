@@ -1,25 +1,47 @@
-.parent{
-    height: 250px;
-    width: 1200px;
-    border: 1px solid black;
-    display: grid;
-    grid-template-columns: 100px 1fr 100px;
-    grid-template-rows: 50px  1fr 50px;
-    margin:50px;
+.parent {
+  height: 250px;
+  width: 100%;
+  border: 1px solid black;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px 20px;
 }
 
-.child{
-    background-color: gray;
-    color: white;
-    border: 1px solid white;
-    text-align: center;
+.child {
+  background-color: gray;
+  color: white;
+  border: 1px solid white;
+  text-align: center;
 }
 
-.child:hover{
-    background-color: darkgray;
-    cursor: pointer;
+.child:hover {
+  background-color: darkgray;
+  cursor: pointer;
 }
 
-.div5{
-    order: 1
+.div1 {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  font-size: 50px;
+}
+.div5 {
+  grid-column: 2/4;
+  font-size: 50px;
+}
+
+.div2 {
+  grid-row-start: 2;
+  grid-row-end: 21;
+  font-size: 50px;
+  text-align: center;
+}
+.div3 {
+  grid-row: 2/20;
+  font-size: 50px;
+  text-align: center;
+}
+.div4 {
+  grid-row: 2/20;
+  font-size: 50px;
+  text-align: center;
 }
