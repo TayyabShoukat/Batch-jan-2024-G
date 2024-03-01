@@ -1,4 +1,4 @@
-header {
+.container-navbar {
   background-color: #343a40;
   box-shadow: 2px 14px 25px -9px rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 2px 14px 25px -9px rgba(0, 0, 0, 0.5);
@@ -9,28 +9,28 @@ header {
   max-width: 1050px;
   height: 65px;
   margin: 0 auto;
-  background-color: #343a40;
+  /* background-color: #343a40; */
   display: grid;
   grid-template-columns: auto 1fr;
   align-items: center;
 }
-
 .navbar-title {
   color: white;
   margin: 0 0 0 10px;
 }
 
 .navbar-lists {
+  display: grid;
   height: 100%;
   padding-left: 0;
-  margin: 0 0 0 auto;
-  display: grid;
   grid-template-columns: repeat(3, auto);
+  margin: 0 0 0 auto;
 }
 
 .element-list {
   height: 100%;
   list-style-type: none;
+  /* border:1px solid white */
 }
 
 .element-list .enlace {
@@ -45,4 +45,5 @@ header {
 }
 .element-list .enlace:hover {
   color: #c9ccbe;
+  cursor: pointer;
 }
