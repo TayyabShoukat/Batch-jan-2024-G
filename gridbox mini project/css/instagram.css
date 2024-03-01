@@ -1,11 +1,12 @@
-.c{
-display: grid;
-grid-template-columns: repeat(3,1fr);
-justify-content: space-between;
-border: 1px solid black;
+.c {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  align-content: center;
+  border: 1px solid black;
+  gap: 5px;
 }
-.grid-image{
-    height: 280px;
-    width: 270px;
-    border: 1px solid black;
+.grid-image {
+  max-width: 100%;
+  height: auto;
 }

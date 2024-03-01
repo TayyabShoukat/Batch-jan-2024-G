@@ -1,39 +1,48 @@
-.container {
-  border: 1px solid black;
+header {
+  background-color: #343a40;
   box-shadow: 2px 14px 25px -9px rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 2px 14px 25px -9px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 2px 14px 25px -9px rgba(0, 0, 0, 0.5);
 }
 
 .navbar {
-  display: grid;
-  justify-content: space-between;
-  grid-template-columns: auto 1fr;
+  max-width: 1050px;
+  height: 65px;
+  margin: 0 auto;
   background-color: #343a40;
-  color: #f8f9fa;
-  padding: 5px;
+  display: grid;
+  grid-template-columns: auto 1fr;
   align-items: center;
-  justify-content: space-between;
-  height: 75px;
 }
 
 .navbar-title {
-  font-size: 25px;
-  font-weight: bold;
-  margin-left: 100px;
+  color: white;
+  margin: 0 0 0 10px;
 }
 
-.navbar-list {
-  display: flex;
+.navbar-lists {
+  height: 100%;
+  padding-left: 0;
+  margin: 0 0 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+
+.element-list {
+  height: 100%;
   list-style-type: none;
-  gap: 10px;
 }
 
-.navbar-list-element {
+.element-list .enlace {
+  height: inherit;
+  color: #9a9d93;
+  font-weight: 500;
   text-decoration: none;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
-.navbar-list-element-link {
-  text-decoration: none;
-  color: #f8f9fa;
+.element-list .enlace:hover {
+  color: #c9ccbe;
 }
