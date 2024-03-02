@@ -1,0 +1,15 @@
+.pinterest-container {
+  display: grid;
+  /* grid-template-columns: 200px 500px auto; */
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows: auto;
+  gap: 10px;
+}
+
+.grid-image {
+}
+
+.grid-image-1{
+    height: 500px;
+    width: 100%;
+}
